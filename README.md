@@ -113,6 +113,7 @@ s = "I love wangxiaojing"
 print(list(s))
 
 # 把range产生的内容转换成list
+#range()函数可创建一个整数列表，一般用在for循环中
 print(list(range(12, 19)))
 
 ```
