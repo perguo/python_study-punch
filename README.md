@@ -17,8 +17,8 @@ print(l)
 
 #方法2
 d=[]
-for i in range(0,len(a)):
-    sum=a[i]+b[i]
+for i in range(0,len(l1)):
+    sum=l1[i]+l2[i]
     d.append(sum)
 print(d)
 ```
