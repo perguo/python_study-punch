@@ -27,7 +27,7 @@ print(d)
         [12, 24, 36, 48, 60]
         [12, 24, 36, 48, 60]
         
-  ###numpy.array()方法
+  ##numpy.array()方法
   ```
   import numpy
 a=numpy.array([1,2,3,4,5])
