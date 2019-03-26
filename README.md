@@ -85,3 +85,37 @@ for k,v in a:
         one -- 1
         two -- 2
         three -- 3
+
+
+# 关于列表的常用函数
+## len:求列表长度
+```
+a = [x for x in range(1,100)]
+print(len(a))
+
+# max:求列表中的最大值
+# min： 同理
+print(max(a))
+
+b = ['man', 'film', 'python']
+print(max(b))
+```
+        99
+        99
+        python
+        
+## list：将其他格式的数据转换成list
+```
+a = [1,2,3]
+print(list(a))
+
+s = "I love wangxiaojing"
+print(list(s))
+
+# 把range产生的内容转换成list
+print(list(range(12, 19)))
+
+```
+        [1, 2, 3]
+        ['I', ' ', 'l', 'o', 'v', 'e', ' ', 'w', 'a', 'n', 'g', 'x', 'i', 'a', 'o', 'j', 'i', 'n', 'g']
+        [12, 13, 14, 15, 16, 17, 18]
