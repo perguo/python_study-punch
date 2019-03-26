@@ -61,14 +61,14 @@ print(a)
  * 链表的遍历
  *  for
  *  while
- ```
+```
  # for in list
 a = [1,2,3,4,5]
 
 # 挨个打印a里边的元素
 for i in a:
     print(i)
-    ```
+```
         1
         2
         3
